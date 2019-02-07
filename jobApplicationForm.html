@@ -4,53 +4,27 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Job Application</title>
+	<title>INFO101 ADD CODE APPLICATION</title>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<style>
-    h2{  
-  text-align:center;
-  color:white;
-  font-size: 50px
-}
+<body style="background-color:purple;">
 
-div{
-	margin-left: auto;
-	margin-right: auto;
-	font-family: "Passion One";
-	text-align: center;
-	background-image: url('dark_wood.png');
-}
-
-label{
-	color:blue;
-}
-
-</style>
-<body style="background-color:grey;">
-    
 <div class="container">
 
-<h2>Job Application</h2>
+<h2 style="color: yellow; text-align:center; font-size: 50px">INFO101 ADD CODE APPLICATION</h2>
 
 <p>&nbsp;</p>
 
-<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post" style= "border: solid 10px rgb(201, 194, 194);" >
+<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post" style= "border: dotted 10px yellow; font-size: 20px; color: orange" >
 
 	<fieldset class="form-horizontal" >
-        <legend style="color:white;" style= "text-align:center;" >Account</legend>
-        <div class="form-group" style="background-color:rgb(95, 75, 209);" >
-                <label class="col-sm-3 control-label">Username</label>
+        <legend style="color:yellow; font-size: 30px; text-align:center; background-color: black;" >Identity</legend>
+        <div class="form-group">
+                <label class="col-sm-3 control-label">UW NetID</label>
                 <div class="col-sm-9">
                     <input class="form-control" type="text" name="email">
                 </div>
             </div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Email</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="email">
-			</div>
-		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Password (You can change it later)</label>
 			<div class="col-sm-9">
@@ -68,7 +42,7 @@ label{
 	<p>&nbsp;</p>
 
 	<fieldset class="form-horizontal" >
-		<legend style="color:white;">Personal Information</legend>
+		<legend style="color:yellow; font-size: 30px; text-align:center; background-color: black;">Personal Information</legend>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">First name</label>
 			<div class="col-sm-9">
@@ -163,55 +137,53 @@ label{
 	<p>&nbsp;</p>
 
 	<fieldset>
-		<legend style="color:white;" style= "list-style-type: none; ">Availability</legend>
+
 		<div class="form-group row">
-			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
+			<label class="col-sm-12 control-label" style="text-align:center; background-color: black;">Which section do you most prefer? (check all that apply)</label>
 			<div class="col-sm-offset-1 col-sm-11">
-				<div class="radio">
+				<div class="checkbox">
 					<label>
-						<input type="radio" name="legal" value="yes">Yes
+						<input type="checkbox" name="position_pt" value="AA">
+						AA
 					</label>
 				</div>
-				<div class="radio">
+				<div class="checkbox">
 					<label>
-						<input type="radio" name="legal" value="no">No
+						<input type="checkbox" name="position_ft" value="AB">
+						AB
 					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_sl" value="AC">
+						AC
+					</label>
+				</div>
+				<div class="checkbox">
+				<label>
+					<input type="checkbox" name="position_pt" value="AD">
+					AD
+				</label>
+				</div>
+					<div class="checkbox">
+				<label>
+					<input type="checkbox" name="position_pt" value="AE">
+					AE
+				</label>
+					</div>
+					<div class="checkbox">
+				<label>
+					<input type="checkbox" name="position_pt" value="AF">
+					AF
+				</label>
+			</div>
 				</div>
 			</div>
 		</div>
 		<div class="form-group row">
-			<label class="col-sm-12 control-label">What type of position are you seeking? (check all that apply)</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_pt" value="parttime">
-						Part time
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_ft" value="fulltime">
-						Full time
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="seasonal">
-						Seasonal
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_tp" value="temporary">
-						Temporary
-					</label>
-				</div>
-			</div>
-		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">Hours available</label>
+			<label class="col-sm-12 control-label" style="text-align:center; color:yellow; font-size: 30px; background-color: black;">Hours available</label>
 			<div class="col-sm-12">
-				<table class="table table-bordered">
+				<table class="table table-bordered" style="text-align:center; color:yellow;">
 					<tr>
 						<td></td>
 						<th>Sun</th>
@@ -250,20 +222,20 @@ label{
 	<p>&nbsp;</p>
 
 	<fieldset>
-		<legend style="color:white;">Personal Statement</legend>
+		<legend style="color:yellow; font-size: 30px; text-align:center; background-color: black;">Personal Statement</legend>
 		<div class="form-group">
-			<label class="control-label">Why do you deserve this job?</label>
+			<label class="control-label" style="text-align:center; color:yellow; text-align:center;">Why do you deserve this add code? (300 words max)</label>
 			<textarea class="form-control" name="deserve" rows="6"></textarea>
 		</div>
 		<div class="form-group">
-			<label class="control-label">Describe a recent project</label>
+			<label class="control-label" style="text-align:center; color:yellow; text-align:center;">Describe your future goal after graduating this class (300 words max)</label>
 			<textarea class="form-control" name="project" rows="6"></textarea>
 		</div>
 	</fieldset>
 
 	<p>&nbsp;</p>
 
-	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+	<input class="btn btn-primary btn-lg" style="text-align:center;" type="submit" value="Submit form">
 
 	<p>&nbsp;</p>
 
