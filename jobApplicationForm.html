@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Starbucks Job Application</title>
+</head>
+<body style="background-color:white;">
+
+<div class="container">
+
+<h2 style="color: black; text-align:center; font-size: 50px">Starbucks Job Application</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Flowers in Chania" style="float:right;width:200px;height:200px;">
+
+<p>&nbsp;</p>
+
+<form role="form" action="http://gclass.alexburner.com/formtest.php" method="post" style= "border: solid 20px green; font-size: 20px; color: green" >
+
+	<fieldset class="form-horizontal" >
+        <legend style="color:green; font-size: 30px; text-align:center; background-color: white;" >PERSONAL INFORMATION</legend>
+        <div class="form-group">
+                <label class="col-sm-3 control-label">First</label>
+                <div class="col-sm-9">
+                    <input class="form-control" type="text" name="firstname">
+                </div>
+            </div>
+		<div class="form-group">
+                <label class="col-sm-3 control-label">Last</label>
+                <div class="col-sm-9">
+                    <input class="form-control" type="text" name="lastname">
+                </div>
+			</div>
+			<div class="form-group">
+					<label class="col-sm-3 control-label">Middle</label>
+					<div class="col-sm-9">
+						<input class="form-control" type="text" name="lastname">
+					</div>
+				</div>
+				<div class="form-group">
+						<label class="col-sm-3 control-label">Birthdate (M/D/Y)</label>
+						<div class="col-sm-9">
+							<input class="form-control" type="text" name="lastname">
+						</div>
+					</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Current address</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="password" name="password">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Permanent address</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="password" name="repeat_password">
+			</div>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<fieldset class="form-horizontal" >
+		<legend style="color:green; font-size: 30px; text-align:center; background-color: white;">EMPLOYMENT DESIRED</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Position</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="name">
+			</div>
+        </div>
+        <div class="form-group">
+                <label class="col-sm-3 control-label">Location/Department</label>
+                <div class="col-sm-9">
+                    <input class="form-control" type="text" name="name">
+                </div>
+            </div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Salary desired</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="street">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Date you can start</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="city">
+			</div>
+		</div>
+		<h2 style="color: green; text-align:center; font-size: 20px">Specify hours available for each day of the week</h2>
+		<div class="col-sm-12">
+				<table class="table table-bordered" style="text-align:center; color:green;">
+					<tr>
+						<td></td>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+					<tr>
+						<th>From</th>
+						<td><input class="form-control" type="time" name="su_from"></td>
+						<td><input class="form-control" type="time" name="mo_from"></td>
+						<td><input class="form-control" type="time" name="tu_from"></td>
+						<td><input class="form-control" type="time" name="we_from"></td>
+						<td><input class="form-control" type="time" name="th_from"></td>
+						<td><input class="form-control" type="time" name="fr_from"></td>
+						<td><input class="form-control" type="time" name="sa_from"></td>
+					</tr>
+					<tr>
+						<th>Until</th>
+						<td><input class="form-control" type="time" name="su_until"></td>
+						<td><input class="form-control" type="time" name="mo_until"></td>
+						<td><input class="form-control" type="time" name="tu_until"></td>
+						<td><input class="form-control" type="time" name="we_until"></td>
+						<td><input class="form-control" type="time" name="th_until"></td>
+						<td><input class="form-control" type="time" name="fr_until"></td>
+						<td><input class="form-control" type="time" name="sa_until"></td>
+					</tr>
+				</table>
+			</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label" >Are you able to work overtime?</label>
+			<div class="col-sm-9">
+				<select class="form-control" name="state">
+					<option value="" selected="true">Yes</option>
+					<option value="AK">No</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-sm-3 control-label">If yes, when</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="zip">
+			</div>
+		</div>
+	</fieldset>
+
+	<fieldset class="form-horizontal" >
+			<legend style="color:green; font-size: 30px; text-align:center; background-color: white;">EDUCATION</legend>
+			<div class="form-group">
+				<label class="col-sm-3 control-label">High School and years completed</label>
+				<div class="col-sm-9">
+					<input class="form-control" type="text" name="name">
+				</div>
+				<div class="checkbox">
+						<label>
+							<input type="checkbox" name="position_pt" value="AA">
+							1
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="position_ft" value="AB">
+							2
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="position_sl" value="AC">
+							3
+						</label>
+					</div>
+					<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_pt" value="AD">
+						4
+					</label>
+					</div>
+			</div>
+			<div class="form-group">
+					<label class="col-sm-3 control-label">Post Secondary and years completed</label>
+					<div class="col-sm-9">
+						<input class="form-control" type="text" name="name">
+					</div>
+				</div>
+				<div class="checkbox">
+						<label>
+							<input type="checkbox" name="position_pt" value="AA">
+							1
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="position_ft" value="AB">
+							2
+						</label>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="position_sl" value="AC">
+							3
+						</label>
+					</div>
+					<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_pt" value="AD">
+						4
+					</label>
+					</div>
+			<div class="form-group">
+				<label class="col-sm-3 control-label">Post Secondary and years completed</label>
+				<div class="col-sm-9">
+					<input class="form-control" type="text" name="street">
+				</div>
+			</div>
+			<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_pt" value="AA">
+						1
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_ft" value="AB">
+						2
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="position_sl" value="AC">
+						3
+					</label>
+				</div>
+				<div class="checkbox">
+				<label>
+					<input type="checkbox" name="position_pt" value="AD">
+					4
+				</label>
+				</div>
+		</fieldset>
+	<p>&nbsp;</p>
+
+	<fieldset>
+
+		
+
+	<p>&nbsp;</p>
+
+	<fieldset>
+		<legend style="color:green; font-size: 30px; text-align:center; background-color: white;">Personal Statement</legend>
+		<div class="form-group">
+			<label class="control-label" style="text-align:center; color:green; text-align:center;">Why do you deserve this job? (300 words max)</label>
+			<textarea class="form-control" name="deserve" rows="6"></textarea>
+		</div>
+		<div class="form-group">
+			<label class="control-label" style="text-align:center; color:green; text-align:center;">Describe your future goal (300 words max)</label>
+			<textarea class="form-control" name="project" rows="6"></textarea>
+		</div>
+	</fieldset>
+
+	<p>&nbsp;</p>
+
+	<input class="btn btn-primary btn-lg" style="text-align:center;" type="submit" value="Submit form">
+
+	<p>&nbsp;</p>
+
+</form>
+</div><!-- close .container -->
+</body>
+</html>
